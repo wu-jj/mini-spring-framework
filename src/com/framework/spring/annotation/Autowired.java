@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.TYPE)//只能使用在类下
-public @interface Component {
-    String value() default ""; //指定组件名字
+@Target(ElementType.FIELD)//只能使用在字段下
+public @interface Autowired {
+
 }
