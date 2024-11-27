@@ -1,4 +1,5 @@
 package com.framework.service;
 
-public class UserInterface {
+public interface UserInterface {
+    public void testUserInterface();
 }

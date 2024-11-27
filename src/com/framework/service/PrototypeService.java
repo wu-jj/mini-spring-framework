@@ -2,12 +2,14 @@ package com.framework.service;
 
 import com.framework.spring.annotation.Autowired;
 import com.framework.spring.annotation.Component;
+import com.framework.spring.annotation.Scope;
 
 @Component
-public class OrderService {
+@Scope
+public class PrototypeService {
     public String field;
-    public OrderService(){
-        this.field = "OrderService";
+    public PrototypeService(){
+        this.field = "PrototypeService";
     }
 
     @Autowired

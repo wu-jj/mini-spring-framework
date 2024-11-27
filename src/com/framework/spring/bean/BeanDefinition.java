@@ -1,4 +1,4 @@
-package com.framework.spring;
+package com.framework.spring.bean;
 
 public class BeanDefinition {
     private Class type;
